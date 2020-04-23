@@ -14,6 +14,6 @@
 
 ## Graph Theory algorithms
 
-[Example 1: A Sorting method ] ( serpenttom.github.io/static/sort_plotly.html)
+[Example 1: A Sorting method]( https://serpenttom.github.io/sort_plotly.html)
 
 
