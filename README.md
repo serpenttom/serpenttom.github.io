@@ -6,7 +6,7 @@
 # Contents: 
 ## Classical algorithms 
 ### maximum, minimum problem for sequence
-### sort problem for sequence
+### [sort problem for sequence]( https://serpenttom.github.io/sort_plotly.html)
 
 ## Approximation algorithms
 ### Enumerate solution for equations
@@ -14,6 +14,6 @@
 
 ## Graph Theory algorithms
 
-[Example 1: A Sorting method]( https://serpenttom.github.io/sort_plotly.html)
+
 
 
