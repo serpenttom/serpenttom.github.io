@@ -1,7 +1,5 @@
 # serpenttom.github.io
 
-- [中文](https://serpenttom.github.io/md_cn.md)
-
 - This a main page of our projection for online mathematics interface and expriments. We will display several visual animated plots by python with plotly, which is expected to help students understanding the process of algorithms.
 
 
