@@ -14,8 +14,8 @@
 
 ## Graph Theory algorithms
 
-#### [Simple Flash Example]( https://serpenttom.github.io/blob/master/worm.html)
-#### [Codes]( https://serpenttom.github.io/blob/master/worm_trry.py)
+#### [Simple Flash Example]( https://serpenttom.github.io/worm.html)
+#### [Codes]( https://serpenttom.github.io/worm_trry.py)
 
 
 
