@@ -6,16 +6,16 @@
 # Contents: 
 ## Classical algorithms 
 ### maximum, minimum problem for sequence
-### [sort problem for sequence]( https://serpenttom.github.io/sort_methods.html)
+### [sort problem for sequence] (https://serpenttom.github.io/sort_methods.html)
 
 ## Approximation algorithms
-### Enumerate solution for equations
+### [numerate solution for equations] (https://serpenttom.github.io/equation_methods.html)
 ### Enumerate solution for optimization problems
 
 ## Graph Theory algorithms
 
-#### [Simple Flash Example]( https://serpenttom.github.io/worm.html)
-#### [Codes]( https://serpenttom.github.io/worm_trry.py)
+#### [Simple Flash Example] ( https://serpenttom.github.io/worm.html)
+#### [Codes] ( https://serpenttom.github.io/worm_trry.py)
 
 
 
