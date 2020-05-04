@@ -9,8 +9,8 @@
 ### [sort problem for sequence](https://serpenttom.github.io/sort_methods.html)
 
 ## Approximation algorithms
-### [numerate solution for equations](https://serpenttom.github.io/equation_methods.html)
-### Enumerate solution for optimization problems
+### [numerical solution for equations](https://serpenttom.github.io/equation_methods.html)
+### numerical solution for optimization problems
 
 ## Graph Theory algorithms
 
