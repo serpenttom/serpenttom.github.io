@@ -18,5 +18,5 @@
 #### [Codes]( https://serpenttom.github.io/worm_trry.py)
 
 # Appendix: To René Descartes
-## [Curves and Surface from Heart](https://serpenttom.github.io/heart.html)
+## [Curves and Surface from Heart](https://serpenttom.github.io/Heart.html)
 
