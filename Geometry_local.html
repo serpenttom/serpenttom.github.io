@@ -1,0 +1,516 @@
+<html>
+<head>
+  <title>sort </title>
+ <meta http-equiv="refresh" content "3">
+ <link rel="stylesheet" type="text/css" href="./test.css" />
+ <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <link href="http://bdimg.share.baidu.com/static/css/like.css?cdnversion=20121228" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Ellipse</h1>
+<div class="box">
+
+
+<table border="0" cellpadding="100px" >
+<tr>
+<td align="top" valign="top">
+$$x^2+\frac{y^2}{4}=1$$
+$$\left\{ \begin{align}x=\cos(t)\\ y=2\sin(t)\end{align}\right., t\in [0,2\pi]$$
+<h2>Ellipse.py </h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>t=np.linspace(0,2*np.pi,121)</span>
+<span>a=1</span>
+<span>b=2</span>
+<span>x=a*np.cos(t)</span>
+<span>y=b*np.sin(t)</span>
+<span>D=go.Scatter(x=x,y=y)</span>
+<span>L=go.Layout(title='椭圆',width=390,height=390,plot_bgcolor='white',</span>
+<span>            xaxis={"range":[-3,3],'zerolinecolor':'black'},yaxis={"range":[-3,3],'zerolinecolor':'black'})</span>
+<span>F=go.Figure(data=D,layout=L)</span>
+<span>F.write_html('tuoyuan.html')</span>
+
+</pre>
+</td>
+
+<td  align="top" valign="top">
+<iframe src="tuoyuan.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+
+</div>
+
+
+
+
+
+<h1>Hyperbola</h1>
+<div class="box">
+
+
+<table border="0" cellpadding="100px">
+<tr>
+<td align="top" valign="top">
+$$x^2-\frac{y^2}{4}=1$$
+$$\left\{ \begin{align}x=\cosh(t)\\ y=2\sinh(t)\end{align}\right., t\in [0,2\pi]$$
+<h2>Hyperbola.py </h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>t=np.linspace(0,2*np.pi,121)</span>
+<span>a=1</span>
+<span>b=2</span>
+<span>x=a*np.cosh(t)</span>
+<span>y=b*np.sinh(t)</span>
+<span>D1=go.Scatter(x=x,y=y,line={'color':'blue'})</span>
+<span>D2=go.Scatter(x=-x,y=y,line={'color':'blue'})</span>
+<span>L=go.Layout(title='双曲线',width=390,height=390,plot_bgcolor='white',</span>
+<span>            xaxis={"range":[-3,3],'zerolinecolor':'black'},yaxis={"range":[-3,3],'zerolinecolor':'black'})</span>
+<span>F=go.Figure(data=[D1,D2],layout=L)</span>
+<span>F.write_html('shuangqu.html')</span>
+</pre>
+</td>
+
+<td  align="top" valign="top">
+<iframe src="shuangquxian.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+
+</div>
+
+<h1>Parabola</h1>
+<div class="box">
+
+
+<table border="0" cellpadding="100px">
+<tr>
+<td align="top" valign="top">
+$$x^2-4y=0$$
+<h2>Parabola.py </h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>t=np.linspace(-2,2,121)</span>
+<span>x=2*t</span>
+<span>y=t**2</span>
+<span>D1=go.Scatter(x=x,y=y,line={'color':'blue'})</span>
+<span>D2=go.Scatter(x=x,y=y*0-1*a,line={'color':'blue'})</span>
+<span>L=go.Layout(title='抛物线',width=390,height=390,plot_bgcolor='white',</span>
+<span>            xaxis={"range":[-5,5],'zerolinecolor':'black'},yaxis={"range":[-4,6],'zerolinecolor':'black'})</span>
+<span>F=go.Figure(data=[D1,D2],layout=L)</span>
+<span>F.show()</span>
+<span>F.write_html('shuangqu.html')</span>
+</pre>
+</td>
+
+<td  align="top" valign="top">
+<iframe src="paowuxian.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+
+</div>
+
+<h1>Line</h1>
+<div class="box">
+
+
+<table border="0" cellpadding="100px">
+<tr>
+<td align="top" valign="top">
+$$x-2y+2=0$$
+<h2>Line.py</h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>t=np.linspace(-2,2,121)</span>
+<span>x=2*t</span>
+<span>y=t+1</span>
+<span>D1=go.Scatter(x=x,y=y,line={'color':'blue'})</span>
+<span>L=go.Layout(title='直线',width=390,height=390,plot_bgcolor='white',</span>
+<span>            xaxis={"range":[-5,5],'zerolinecolor':'black'},yaxis={"range":[-4,6],'zerolinecolor':'black'})</span>
+<span>F=go.Figure(data=[D1],layout=L)</span>
+<span>F.show()</span>
+<span>F.write_html('zhixian.html')</span>
+</pre>
+</td>
+
+<td  align="top" valign="top">
+<iframe src="zhixian.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+</div>
+
+<h1>Sphere</h1>
+<div class="box">
+
+
+<table border="0" cellpadding="100px">
+<tr>
+<td align="top" valign="top">
+$$x^2+y^2+z^2=1$$
+$$ \left\{\begin{align}
+x=\cos(t)\sin(s)\\
+y=\sin(t)\sin(s)\\
+z=\cos(s)
+\end{align} \right., t\in[0,2\pi],s\in[0,\pi]$$
+
+<h2>Sphere.py</h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>num=35</span>
+<span>T=np.linspace(0,2*np.pi,num)</span>
+<span>Z=np.linspace(0,np.pi,num)</span>
+<span>t,r=np.meshgrid(T,Z)</span>
+<span>x=np.cos(t)*np.sin(r)</span>
+<span>y=np.sin(t)*np.sin(r)</span>
+<span>z=np.cos(r)</span>
+<span>D1=go.Surface(x=x,y=y,z=z,surfacecolor=z,colorscale="blues")</span>
+<span>F=go.Figure(data=[D1])</span>
+<span>F.write_html('ball_3d_orth.html')</span>
+
+</pre>
+</td>
+
+<td  align="top" valign="top">
+<iframe src="ball_3d_orth.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+</div>
+
+
+<h1>Hyperboloid of one sheet</h1>
+<div class="box">
+<table border="0" cellpadding="100px">
+<tr>
+<td align="top" valign="top">
+$$x^2+y^2-z^2=1$$
+$$ \left\{\begin{align}
+x=\cos(t)\cosh(s)\\
+y=\sin(t)\cosh(s)\\
+z=\sinh(s)
+\end{align} \right., t\in[0,2\pi],s\in R$$
+<h2> Hyperboloid of one sheet.py</h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>num=37</span>
+<span>T=np.linspace(0,np.pi,num)</span>
+<span>Z=np.linspace(-2,2,num)</span>
+<span>t,z=np.meshgrid(T,Z)</span>
+<span>sol=[2,1]</span>
+<span>x=t*0</span>
+<span>y=t*0</span>
+<span>for i in range(num):</span>
+<span>    for j in range(num):</span>
+<span>        A=np.array([[-np.sin(t[i,j]),np.cos(t[i,j])],[np.cos(t[i,j]),np.sin(t[i,j])]])</span>
+<span>        b=np.array([[np.cos(t[i,j])+z[i,j]*(-np.sin(t[i,j]))],[(-np.sin(t[i,j])-z[i,j]*np.cos(t[i,j]))]])</span>
+<span>        sol=np.linalg.solve(A,b)</span>
+<span>        x[i,j]=sol[0]</span>
+<span>        y[i,j]=sol[1]</span>
+<span>L=go.Layout(title='单叶双曲面')</span>
+<span>D=go.Surface(x=x,y=y,z=z,surfacecolor=t,colorscale="hsv")</span>
+<span>F=go.Figure(data=D,layout=L)</span>
+<span>F.write_html('d_shuangqu.html')</span>
+</pre>
+</td>
+<td  align="top" valign="top">
+<iframe src="d_shuangqu.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+</div>
+
+
+
+<h1>	 Hyperboloid of one sheet</h1>
+<div class="box">
+<table border="0" cellpadding="100px">
+<tr>
+<td align="top" valign="top">
+$$x^2+y^2-z^2=1$$
+$$ \left\{\begin{align}
+x=\cos(t)\cosh(s)\\
+y=\sin(t)\cosh(s)\\
+z=\sinh(s)
+\end{align} \right., t\in[0,2\pi],s\in R $$
+<h2>  Hyperboloid of one sheet.py</h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>num=35</span></span>
+<span>a=np.linspace(0,2*np.pi,num)</span>
+<span>zy=np.arccosh(2)</span>
+<span>b=np.linspace(-zy,zy,num)</span>
+<span>T,S=np.meshgrid(a,b)</span>
+<span>sol=[2,1]</span>
+<span>x=np.cos(T)*np.cosh(S)</span>
+<span>y=np.sin(T)*np.cosh(S)</span>
+<span>z=np.sinh(S)</span>
+<span>D1=go.Surface(x=x,y=y,z=z,surfacecolor=np.sin(t),colorscale="blues")</span>
+<span>D2=go.Surface(x=x,y=y,z=-z,surfacecolor=-np.sin(t),colorscale="blues")</span>
+<span>F=go.Figure(data=[D1,D2])</span>
+<span>F.write_html('d_shuangqu_eq.html')</span>
+</pre>
+</td>
+<td  align="top" valign="top">
+<iframe src="d_shuangqu_eq.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+</div>
+
+
+<h1>	 Hyperboloid of two sheets</h1>
+<div class="box">
+<table border="0" cellpadding="100px">
+<tr>
+<td align="top" valign="top">
+$$-x^2-y^2+z^2=1$$
+$$ \left\{\begin{align}
+x=\cos(t)\sinh(s)\\
+y=\sin(t)\sinh(s)\\
+z=\cosh(s)
+\end{align} \right., t\in[0,2\pi],s\in R$$
+<h2>  Hyperboloid of two sheets.py</h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>num=35</span>
+<span>T=np.linspace(0,2*np.pi,num)</span>
+<span>Z=np.linspace(0,2,num)</span>
+<span>t,r=np.meshgrid(T,Z)</span>
+<span>x=np.cos(t)*np.sinh(r)</span>
+<span>y=np.sin(t)*np.sinh(r)</span>
+<span>z=np.cosh(r)</span>
+<span>D1=go.Surface(x=x,y=y,z=z,surfacecolor=np.sin(t),colorscale="blues")</span>
+<span>D2=go.Surface(x=x,y=y,z=-z,surfacecolor=-np.sin(t),colorscale="blues")</span>
+<span>F=go.Figure(data=[D1,D2])</span>
+<span>F.write_html('s_shuangqu_3d.html')</span>
+</pre>
+</td>
+<td  align="top" valign="top">
+<iframe src="s_shuangqu_3d.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+</div>
+
+<h1> Paraboloid</h1>
+<div class="box">
+<table border="0" cellpadding="100px">
+<tr>
+<td align="top" valign="top">
+$$x^2+y^2-z=0$$
+$$ \left\{\begin{align}
+x=r\cos(t)\\
+y=r\sin(t)\\
+z=r^2
+\end{align} \right., t\in[0,2\pi], s\in R$$
+<h2>Paraboloid.py</h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>num=37</span>
+<span>t=np.linspace(0,2*np.pi,num)</span>
+<span>r=np.linspace(-1,1,num)</span>
+<span>R,T=np.meshgrid(r,t)</span>
+<span>x=R*np.cos(T)</span>
+<span>y=R*np.sin(T)</span>
+<span>z=R**2</span>
+<span>D=go.Surface(x=x,y=y,z=z,surfacecolor=T,colorscale="hsv")</span>
+<span>F=go.Figure(data=D)</span>
+<span>F.write_html('paowumian.html')</span>
+</pre>
+</td>
+<td  align="top" valign="top">
+<iframe src="paowumian.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+</div>
+
+<h1>hyperbolic paraboloid</h1>
+<div class="box">
+<table border="0" cellpadding="100px">
+<tr>
+<td align="top" valign="top">
+$$x^2-y^2-z=0$$
+
+<h2>hyperbolic paraboloid.py</h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>num=37</span>
+<span>T=np.linspace(-1,1,num)</span>
+<span>Z=np.linspace(-1,1,num)</span>
+<span>t,r=np.meshgrid(T,Z)</span>
+<span>sol=[2,1]</span>
+<span>x=t</span>
+<span>y=r</span>
+<span>z=x**2-y**2</span>
+<span>a=x+y</span>
+<span>D=go.Surface(x=x,y=y,z=z,surfacecolor=a,colorscale="rainbow")</span>
+<span>F=go.Figure(data=D)</span>
+<span>F.write_html('ma_an_3d_orth.html')</span>
+</pre>
+</td>
+<td  align="top" valign="top">
+<iframe src="ma_an_3d_orth.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+</div>
+
+
+
+
+
+
+<h1> Cylinder</h1>
+<div class="box">
+<table border="0" cellpadding="100px">
+<tr>
+<td align="top" valign="top">
+$$x^2+y^2=1, z\in R$$
+$$ \left\{\begin{align}
+x=\cos(t)\\
+y=\sin(t)\\
+z=s
+\end{align} \right., t\in[0,2\pi],s\in R$$
+<h2>Cylinder.py</h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>num=37</span>
+<span>t=np.linspace(0,2*np.pi,num)</span>
+<span>r=np.linspace(-1,1,num)</span>
+<span>R,T=np.meshgrid(r,t)</span>
+<span>x=np.cos(T)</span>
+<span>y=np.sin(T)</span>
+<span>z=R</span>
+<span>D=go.Surface(x=x,y=y,z=z,surfacecolor=T,colorscale="hsv")</span>
+<span>F=go.Figure(data=D)</span>
+<span>F.write_html('yuanzhu.html')</span>
+</pre>
+</td>
+<td  align="top" valign="top">
+<iframe src="yuanzhu.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+</div>
+
+
+
+
+
+<h1>Circular cone</h1>
+<div class="box">
+<table border="0" cellpadding="100px">
+<tr>
+<td align="top" valign="top">
+$$x^2+y^2=1, z\in R$$
+$$ \left\{\begin{align}
+x=\cos(t)\\
+y=\sin(t)\\
+z=s
+\end{align} \right., t\in[0,2\pi],s\in R$$
+<h2>Circular cone.py</h2>
+<pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
+<span>import numpy as np</span>
+<span>import plotly.graph_objs as go</span>
+<span>num=37</span>
+<span>t=np.linspace(0,2*np.pi,num)</span>
+<span>r=np.linspace(-1,1,num)</span>
+<span>R,T=np.meshgrid(r,t)</span>
+<span>x=r*np.cos(T)</span>
+<span>y=r*np.sin(T)</span>
+<span>z=R</span>
+<span>D=go.Surface(x=x,y=y,z=z,surfacecolor=T,colorscale="hsv")</span>
+<span>F=go.Figure(data=D)</span>
+<span>F.write_html('yuanzhui.html')</span>
+</pre>
+</td>
+<td  align="top" valign="top">
+<iframe src="yuanzhui.html"
+width="500" height="500"
+frameborder="1"
+name="sort"
+scrolling="auto">
+</iframe>
+</td>
+</tr>
+</table>
+</div>
+
+
+</body>
+
+</html>
