@@ -19,4 +19,4 @@
 
 # Appendix: To René Descartes
 ## [Curves and Surface from Heart](https://serpenttom.github.io/Heart.html)
-## [Quadric Geometry](https://serpenttom.github.io/Quadric_Geometry.html)
+## [Quadratic Geometry](https://serpenttom.github.io/Quadratic_geometry.html)
