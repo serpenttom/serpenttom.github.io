@@ -31,7 +31,7 @@ $$\left\{ \begin{align}x=\cos(t)\\ y=2\sin(t)\end{align}\right., t\in [0,2\pi]$$
 <span>x=a*np.cos(t)</span>
 <span>y=b*np.sin(t)</span>
 <span>D=go.Scatter(x=x,y=y)</span>
-<span>L=go.Layout(title='哭途',width=390,height=390,plot_bgcolor='white',</span>
+<span>L=go.Layout(title='椭圆',width=390,height=390,plot_bgcolor='white',</span>
 <span>            xaxis={"range":[-3,3],'zerolinecolor':'black'},yaxis={"range":[-3,3],'zerolinecolor':'black'})</span>
 <span>F=go.Figure(data=D,layout=L)</span>
 <span>F.write_html('tuoyuan.html')</span>
@@ -76,7 +76,7 @@ $$\left\{ \begin{align}x=\cosh(t)\\ y=2\sinh(t)\end{align}\right., t\in [0,2\pi]
 <span>y=b*np.sinh(t)</span>
 <span>D1=go.Scatter(x=x,y=y,line={'color':'blue'})</span>
 <span>D2=go.Scatter(x=-x,y=y,line={'color':'blue'})</span>
-<span>L=go.Layout(title='崗혓窟',width=390,height=390,plot_bgcolor='white',</span>
+<span>L=go.Layout(title='双曲线',width=390,height=390,plot_bgcolor='white',</span>
 <span>            xaxis={"range":[-3,3],'zerolinecolor':'black'},yaxis={"range":[-3,3],'zerolinecolor':'black'})</span>
 <span>F=go.Figure(data=[D1,D2],layout=L)</span>
 <span>F.write_html('shuangqu.html')</span>
@@ -103,7 +103,7 @@ scrolling="auto">
 <table border="0" cellpadding="100px">
 <tr>
 <td align="top" valign="top">
-$$x^2-4y=0$$
+$$x^2-2y=0$$
 <h2>Parabola.py </h2>
 <pre style="color:black; background-color:#eeeeee;font-size:24px" lang="python">
 <span>import numpy as np</span>
@@ -113,7 +113,7 @@ $$x^2-4y=0$$
 <span>y=t**2</span>
 <span>D1=go.Scatter(x=x,y=y,line={'color':'blue'})</span>
 <span>D2=go.Scatter(x=x,y=y*0-1*a,line={'color':'blue'})</span>
-<span>L=go.Layout(title='테膠窟',width=390,height=390,plot_bgcolor='white',</span>
+<span>L=go.Layout(title='抛物线',width=390,height=390,plot_bgcolor='white',</span>
 <span>            xaxis={"range":[-5,5],'zerolinecolor':'black'},yaxis={"range":[-4,6],'zerolinecolor':'black'})</span>
 <span>F=go.Figure(data=[D1,D2],layout=L)</span>
 <span>F.show()</span>
@@ -150,7 +150,7 @@ $$x-2y+2=0$$
 <span>x=2*t</span>
 <span>y=t+1</span>
 <span>D1=go.Scatter(x=x,y=y,line={'color':'blue'})</span>
-<span>L=go.Layout(title='殮窟',width=390,height=390,plot_bgcolor='white',</span>
+<span>L=go.Layout(title='直线',width=390,height=390,plot_bgcolor='white',</span>
 <span>            xaxis={"range":[-5,5],'zerolinecolor':'black'},yaxis={"range":[-4,6],'zerolinecolor':'black'})</span>
 <span>F=go.Figure(data=[D1],layout=L)</span>
 <span>F.show()</span>
@@ -244,7 +244,7 @@ z=\sinh(s)
 <span>        sol=np.linalg.solve(A,b)</span>
 <span>        x[i,j]=sol[0]</span>
 <span>        y[i,j]=sol[1]</span>
-<span>L=go.Layout(title='데秊崗혓충')</span>
+<span>L=go.Layout(title='单叶双曲面')</span>
 <span>D=go.Surface(x=x,y=y,z=z,surfacecolor=t,colorscale="hsv")</span>
 <span>F=go.Figure(data=D,layout=L)</span>
 <span>F.write_html('d_shuangqu.html')</span>
