@@ -19,4 +19,4 @@ Chinese - English
 
 [2] Pang Liping, **Zhang Ming-Kun**, Xiao Xiantao. A Stochastic Approximation Method for Convex Programming with Many Semidefinite Constraints[J]. Optimization Methods and Software. 2023:34-58.
 
-[3] Chen Xing-Min, Gao Chao, Zhang Ming-Kun, Qin Yi-Da. Randomized gradient-free distributed algorithms through sequential Gaussian smoothing[C].  2017 36th Chinese Control Conference. 
+[3] Chen Xing-Min, Gao Chao, **Zhang Ming-Kun**, Qin Yi-Da. Randomized gradient-free distributed algorithms through sequential Gaussian smoothing[C].  2017 36th Chinese Control Conference. 
