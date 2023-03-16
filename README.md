@@ -1,18 +1,17 @@
 # 个人学术主页
 
-|中文姓名 | 张明堃| English name| Zhang Ming-Kun|
-|---|---|---|---|
-|单位 |石河子大学| Organization| Shihezi University|
-|专业|运筹学与控制论|Majority|Operation research and cybernetics|
-
-## Disciplines
-Stochastic optimization, stochastic approximation, convex programming
-## Skills and expertise
-Support Vector Machine, Support Vector Regression, 
+|中文姓名 | 张明堃|
+|---|---|
+|单位 |石河子大学| 
+|专业|运筹学与控制论|
 
 
-## Languages
-Chinese - English
+## 研究领域
+随机优化, 随机逼近, 锥约束优化
+
+
+## 语言
+中文  English
 
 ## papers
 [1] Wang Xiaoliang, Pang Liping, Wu Qi, **Zhang Ming-Kun**. An Adaptive Proximal Bundle Method with Inexact Oracles for a Class of Nonconvex and Nonsmooth Composite Optimization[J].
