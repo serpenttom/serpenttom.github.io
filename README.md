@@ -1,10 +1,9 @@
 # 个人学术主页
 
-## 姓名: 张明堃 
-## 单位: 石河子大学理学院数学系
-## 邮箱: mkzhang@shzu.edu.cn
-## 专业: 运筹学与控制论
-
+|中文姓名 | 张明堃| English name| Zhang Ming-Kun|
+|---|---|---|---|
+|单位 |石河子大学| Organization| Shihezi University|
+|专业|运筹学与控制论|Majority|Operation research and cybernetics|
 
 ## Disciplines
 Stochastic optimization, stochastic approximation, convex programming
