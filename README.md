@@ -14,8 +14,10 @@
 中文  English
 
 ## papers
-[1] Wang Xiaoliang, Pang Liping, Wu Qi, **Zhang Ming-Kun**. An Adaptive Proximal Bundle Method with Inexact Oracles for a Class of Nonconvex and Nonsmooth Composite Optimization[J].
 
-[2] Pang Liping, **Zhang Ming-Kun**, Xiao Xiantao. A Stochastic Approximation Method for Convex Programming with Many Semidefinite Constraints[J]. Optimization Methods and Software. 2023:34-58.
 
-[3] Chen Xing-Min, Gao Chao, **Zhang Ming-Kun**, Qin Yi-Da. Randomized gradient-free distributed algorithms through sequential Gaussian smoothing[C].  2017 36th Chinese Control Conference. 
+* Pang Liping, **Zhang Ming-Kun**, Xiao Xiantao. A Stochastic Approximation Method for Convex Programming with Many Semidefinite Constraints[J]. Optimization Methods and Software. 2023:34-58.
+
+* Chen Xing-Min, Gao Chao, **Zhang Ming-Kun**, Qin Yi-Da. Randomized gradient-free distributed algorithms through sequential Gaussian smoothing[C].  2017 36th Chinese Control Conference.  Dalian, China, 2017, pp. 8407-8412.
+
+* Wang Xiaoliang, Pang Liping, Wu Qi, **Zhang Ming-Kun**. An Adaptive Proximal Bundle Method with Inexact Oracles for a Class of Nonconvex and Nonsmooth Composite Optimization[J].  2021, 9(8), 874.
