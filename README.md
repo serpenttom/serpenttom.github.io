@@ -1,5 +1,5 @@
 
-
+# 基本信息
 ### 姓名  
 张明堃 (Zhang Ming-Kun)
 
@@ -7,7 +7,7 @@
 石河子大学 (Shihezi University)
 
 ### 专业
-运筹学与控制论 (Operation research and Cybernetics)
+运筹学与控制论 (Operation Research and Cybernetics)
 
 
 
@@ -15,9 +15,8 @@
 随机优化, 随机逼近, 锥约束优化 
 stochastic optimization, stochastic approximation, conical programming
 
-
+# 论文信息
 ### Papers
-
 
 * Pang Liping, **Zhang Ming-Kun**, Xiao Xiantao. A Stochastic Approximation Method for Convex Programming with Many Semidefinite Constraints[J]. Optimization Methods and Software. 2023:34-58.
 
