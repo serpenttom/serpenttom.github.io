@@ -1,23 +1,23 @@
-# serpenttom.github.io
+# 个人学术主页
 
-- This a main page of our projection for online mathematics interface and expriments. We will display several visual animated plots by python with plotly, which is expected to help students understanding the process of algorithms.
+## 姓名: 张明堃 
+## 单位: 石河子大学理学院数学系
+## 邮箱: mkzhang@shzu.edu.cn
+## 专业: 运筹学与控制论
 
 
-# Contents: 
-## Classical algorithms 
-### maximum, minimum problem for sequence
-### [sort problem for sequence](https://serpenttom.github.io/sort_methods.html)
+## Disciplines
+Stochastic optimization, stochastic approximation, convex programming
+## Skills and expertise
+Support Vector Machine, Support Vector Regression, 
 
-## Approximation algorithms
-### [numerical solution for equations](https://serpenttom.github.io/equation_methods.html)
-### numerical solution for optimization problems
 
-## Graph Theory algorithms
+## Languages
+Chinese - English
 
-#### [Simple Flash Example]( https://serpenttom.github.io/worm.html)
-#### [Codes]( https://serpenttom.github.io/worm_trry.py)
+## papers
+[1] Wang Xiaoliang, Pang Liping, Wu Qi, **Zhang Ming-Kun**. An Adaptive Proximal Bundle Method with Inexact Oracles for a Class of Nonconvex and Nonsmooth Composite Optimization[J].
 
-# Appendix: To René Descartes
-## [Curves and Surface from Heart](https://serpenttom.github.io/Heart.html)
-## [Quadratic Geometry](https://serpenttom.github.io/Quadratic_geometry.html)
-## [Christmas Tree](https://serpenttom.github.io/Xmax%20Tree.html)
+[2] Pang Liping, **Zhang Ming-Kun**, Xiao Xiantao. A Stochastic Approximation Method for Convex Programming with Many Semidefinite Constraints[J]. Optimization Methods and Software. 2023:34-58.
+
+[3] Chen Xing-Min, Gao Chao, Zhang Ming-Kun, Qin Yi-Da. Randomized gradient-free distributed algorithms through sequential Gaussian smoothing[C].  2017 36th Chinese Control Conference. 
