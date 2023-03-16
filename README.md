@@ -13,6 +13,7 @@
 
 ### 研究领域
 随机优化, 随机逼近, 锥约束优化 
+
 stochastic optimization, stochastic approximation, conical programming
 
 # 论文信息
