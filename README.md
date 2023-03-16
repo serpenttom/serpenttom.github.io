@@ -1,19 +1,24 @@
-# 个人学术主页
 
-|中文姓名 | 张明堃|
-|---|---|
-|单位 |石河子大学| 
-|专业|运筹学与控制论|
+
+## 姓名  
+张明堃 (Zhang Ming-Kun)
+
+## 单位 
+石河子大学 (Shihezi University)
+
+## 专业
+运筹学与控制论 (Operation research and Cybernetics)
+
 
 
 ## 研究领域
-随机优化, 随机逼近, 锥约束优化
+随机优化, 随机逼近, 锥约束优化 
+stochastic optimization, stochastic approximation, conical programming
 
 
-## 语言
-中文  English
 
-## papers
+
+## Papers
 
 
 * Pang Liping, **Zhang Ming-Kun**, Xiao Xiantao. A Stochastic Approximation Method for Convex Programming with Many Semidefinite Constraints[J]. Optimization Methods and Software. 2023:34-58.
